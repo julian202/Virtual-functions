@@ -3,9 +3,9 @@
 class Animal {
 public:
   // This function can always be overriden even if it's not virtual.
-  // Non virtual version:
+  // - Non virtual version:
   // void eat() { std::cout << "Animal eats!\n"; }
-  // Virtual version:
+  // - Virtual version:
   virtual void eat() { std::cout << "Animal eats!\n"; }
 };
 
