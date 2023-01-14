@@ -1,4 +1,6 @@
 #include <iostream>
+// Virtual functions test.
+
 
 class Animal {
 public:
